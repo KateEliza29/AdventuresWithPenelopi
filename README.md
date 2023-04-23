@@ -1,1 +1,21 @@
-Read me plz
+# Adventures With Penelopi
+
+![An image of a raspberry pi case with googly eyes and a mouth drawn on](Images/Penelopi.jpg)
+
+### Day 1 - 23/04/2023
+Twas the night before the exam that marks the end of my first MSc Computing module. I couldn't face any more revision, and the poor, lifeless Raspberry Pi 3 that I'd bought myself as a reward for making it through the first Masters module, was sitting gathering dust on my desk. 
+
+The aim of 'Adventures With Penelopi' is to figure out all the fun stuff that Pis can be used for, to learn Linux, and to learn Python. 
+
+Plus, I've also got a big ol' box of sensors to play with. 
+![An image of a box filled with sensors](Images/SensorBox.jpg)
+
+However, today's job was just set up and included the following: 
+
+1. Download Raspberry Pi Imager. 
+2. Open the secret menu to prefill wifi and configure SSH. I'm planning on using this headless (no escape from using the terminal if you have no peripherals!) so this all needed setting up at the same time as the OS. 
+3. Pick my OS (I went for the standard Raspberry Pi OS. There's time to explore later.), reunite Penelopi with her Micro SD and turn the old girl on. 
+4. Check it's connecting to my wifi by looking at the router admin and giving her a ping. 
+5. Update and upgrade packages (and try to figure out the best way to give Penelopi some hair while they were running...).
+6. Run raspi-config to change the hostname to 'Penelopi'.
+7. Reboot and re-ping her new hostname to check it all worked and she's still connecting to the wifi on startup.  
