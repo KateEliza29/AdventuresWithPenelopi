@@ -1,6 +1,6 @@
 # Adventures With Penelopi
 
-<img src="Images/Penelopi.jpg" width="50">
+<img src="Images/Penelopi.jpg" width="300">
 
 ### Day 1 - 23/04/2023
 Twas the night before the exam that marks the end of my first MSc Computing module. I couldn't face any more revision, and the poor, lifeless Raspberry Pi 3 that I'd bought myself as a reward for making it through the first Masters module, was sitting gathering dust on my desk. 
@@ -8,7 +8,7 @@ Twas the night before the exam that marks the end of my first MSc Computing modu
 The aim of 'Adventures With Penelopi' is to figure out all the fun stuff that Pis can be used for, to learn Linux, and to learn Python. 
 
 Plus, I've also got a big ol' box of sensors to play with. 
-<img src="Images/SensorBox.jpg" width="50">
+<img src="Images/SensorBox.jpg" width="200">
 
 However, today's job was just set up and included the following: 
 
