@@ -34,7 +34,7 @@ Process was as follows:
 4. Figure out what my external IP is, switch off the wifi on my phone to make sure it's actually accessible from external, navigate to the IP, and get excited because this glorious page is displayed.
 <img src="Images/nginx.png" width="200">
 5. Figure out where the default web page is hosted. As a software engineer who works in .NET, Angular and IIS, my life is Microsoft-heavy, and I've never used nginx before, so I had no idea about the folder structure/location. Turns out, the details of default pages are all kept here: /etc/nginx/sites-available/default. This directed me to default pages in var/www/html.
-6. In var/www/html, create index.html, sudo it in nano (because apparently you don't have permissions to save by default as a non-sudo), and boiler plate it. Function first, prettifying later.  
+6. In var/www/html, create index.html, sudo it in nano (because apparently you don't have permissions to save by default as a non-sudo), and boiler plate it. Function first, prettifying later.
 7. Refresh the page, and celebrate. 
 <img src="Images/custompage.png" width="300">
  
