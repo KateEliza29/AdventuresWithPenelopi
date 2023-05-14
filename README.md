@@ -38,7 +38,7 @@ Process was as follows:
 <img src="Images/custompage.png" width="300">
  
 
-### Day 1 - 14/5/2023 - The Flask Saga
+### Day 3 - 14/5/2023 - The Flask Saga
 Before we start, the wires arrived, and Penelopi has a snazzy new station to keep all of her bits together. Thank you IKEA. 
 <img src="Images/PenelopiStation.jpg" width="300">
 
