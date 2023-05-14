@@ -44,7 +44,7 @@ Before we start, the wires arrived, and Penelopi has a snazzy new station to kee
 
 As a result of tonight's work, there is now a working web server running an interactive Flask application. All the code for this part is in the flask_project directory. 
 
-###The Flask Saga - Part One
+### The Flask Saga - Part One
 I started with getting Flask set up on my dev machine (which is Windows - I have a laptop with a Linux partition on it, but for some reason I always end up using my main machine instead). Process was along the lines of: 
 
 1. Download and install python. 
@@ -59,7 +59,7 @@ At this point, I had a fun little error where VS Code couldn't resolve the Flask
 I'll admit that building the application took me a flippin age. For some reason, the submit button would only do a GET request, and I could not get any parameters to be passed anywhere. Eventually, I came across some stuff about Flask WTF (a form library), which also suggested storing the form data in a session variable, which solved my problems. 
 
 
-###The Flask-Saga - Part Two
+### The Flask-Saga - Part Two
 Once the application was built and working locally, it was time to move it to Penelopi and get it running externally.
 
 To begin with, I went about this in the same way as I did on my windows machine (ie. create project folder, virtual environment, scp my folder structure in). Following a tutorial, I installed gunicorn and tried to configure all that shizzle and point my nginx server at it. Again, could not get any of this config to work. There were issues with gunicorn being installed globally and not in the virtual environment, which messed up the proxy, and issues with setting up systemctl services. Everything seemed overcomplicated, which, in my experience, generally means there's a better way (although this is my first time working with nginx/gunicorn/python/flask so what do I know?).
