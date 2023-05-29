@@ -1,0 +1,25 @@
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 200px;
+
+}
+
+.btn {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+} 
+
+#btnRed {
+    background-color: red;
+}
+
+#btnYellow {
+    background-color: yellow;
+}
+
+#btnGreen {
+    background-color: green;
+}

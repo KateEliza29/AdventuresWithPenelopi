@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% if title %}
+    <title>Penelopi - {{title}}</title>
+    {% else %}
+    <title>Penelopi</title>
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <div class="traffic-light-container"> 
+      <form action="/redon/" method="post">
+          <button name="btnRed" id="btnRed" class="btn" type="submit">Red On</button>
+      </form>
+
+      <form action="/yellowon/" method="post">
+        <button name="btnYellow" id="btnYellow" class="btn" type="submit">Yellow On</button>
+    </form>
+
+    <form action="/greenon/" method="post">
+      <button name="btnGreen" id="btnGreen" class="btn" type="submit">Green On</button>
+    </form>
+  </div>
+    {{ confirmation_message }}
+
+  </body>
+</html>
